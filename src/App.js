@@ -5,10 +5,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className ="Palette">
-      {/*navbar goes here */}
-      <div className ="Palette-colors"> {/* bunch of boxes  */} </div>
-      {/* footer  */}
+    <div className ="App">
+      <Palette {...seedColors[4]}/>
     </div>
   );
 }
